@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-[#ebe4d5] min-h-screen flex items-center justify-center font-sans"
+  >
+    <div
+      class="bg-[#e5d4be] border-solid border-1 rounded-lg shadow-md p-16 w-full max-w-max"
+    >
+      <h2 class="text-2xl md:text-4xl text-[#483312] font-bold mb-4">
+        Post a Job Opportunity
+      </h2>
+      <p class="text-gray-600 mb-6">
+        Share job openings with our alumni network.
+      </p>
+
+      <div class="mb-4">
+        <label for="jobTitle" class="block text-gray-700 text-sm font-bold mb-2"
+          >Job Title</label
+        >
+        <input
+          type="text"
+          id="jobTitle"
+          class="shadow bg-[#ebe4d5] appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          placeholder="Software Engineer"
+        />
+      </div>
+
+      <div class="mb-4">
+        <label
+          for="jobDescription"
+          class="block text-gray-700 text-sm font-bold mb-2"
+          >Job Description</label
+        >
+        <textarea
+          id="jobDescription"
+          rows="4"
+          class="shadow bg-[#ebe4d5] appearance-none border rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none"
+          placeholder="Describe the role and requirements..."
+        ></textarea>
+      </div>
+
+      <div class="mb-4">
+        <label
+          for="companyName"
+          class="block text-gray-700 text-sm font-bold mb-2"
+          >Company Name</label
+        >
+        <input
+          type="text"
+          id="companyName"
+          class="shadow appearance-none bg-[#ebe4d5] border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          placeholder="Acme Inc"
+        />
+      </div>
+
+      <div class="flex items-center mt-8 justify-end">
+        <button
+          class="bg-[#d4b992] hover:bg-[#d4b992] text-[#483312] font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        >
+          Submit Posting
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

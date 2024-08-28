@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Your Thoughts</title>
+    <link href="./output.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        beige: {
+                            100: '#f5f5dc',
+                            200: '#e6e6c8',
+                            300: '#d6d6b1',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-[#EBE4D5] flex items-center justify-center font-mono">
+    <div class="bg-[#E6D8C6] p-8 rounded-lg shadow-md w-96 border border-beige-300">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Share your thoughts</h2>
+        <p class="text-sm mb-6 text-gray-600">Write something and share it with your friends.</p>
+        
+        <form>
+            <div class="mb-4">
+                <textarea 
+                    class="w-full p-3 border border-beige-300 rounded bg-beige-100 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-beige-300"
+                    rows="4"
+                    placeholder="What's on your mind?"
+                ></textarea>
+            </div>
+            
+            <button 
+                type="submit" 
+                class="w-full bg-[#D4B990] text-gray-800 py-2 px-4 rounded hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-beige-300 focus:ring-opacity-50"
+            >
+                Post
+            </button>
+        </form>
+    </div>
+</body>
+</html>
