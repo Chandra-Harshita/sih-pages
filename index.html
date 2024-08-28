@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[#e6d8c6] font-mono font-medium">
+    <nav class="bg-[#e6d8c6] border-b border-[#d4b990]">
+      <div class="mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="text-2xl">🎓</div>
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-3">
+              <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-sm"
+                >Home</a
+              >
+              <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-sm"
+                >Alumni</a
+              >
+              <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-sm"
+                >Events</a
+              >
+              <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-sm"
+                >Contact</a
+              >
+              <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-sm"
+                >Sign in</a
+              >
+              <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-sm"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+          <div class="md:hidden">
+            <button
+              id="mobile-menu-button"
+              class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            >
+              ☰
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="mobile-menu" class="hidden md:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a href="#" class="text-gray-700 block px-3 py-2 rounded-md text-base"
+            >Home</a
+          >
+          <a href="#" class="text-gray-700 block px-3 py-2 rounded-md text-base"
+            >Alumni</a
+          >
+          <a href="#" class="text-gray-700 block px-3 py-2 rounded-md text-base"
+            >Events</a
+          >
+          <a href="#" class="text-gray-700 block px-3 py-2 rounded-md text-base"
+            >Contact</a
+          >
+          <a href="#" class="text-gray-700 block px-3 py-2 rounded-md text-base"
+            >Sign in</a
+          >
+          <a href="#" class="text-gray-700 block px-3 py-2 rounded-md text-base"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="flex flex-col items-center justify-center min-h-screen px-4">
+      <h1
+        class="text-3xl sm:text-4xl md:text-5xl text-[#4a3f35] mb-6 text-center font-sans font-medium"
+      >
+        Connect with Alumni
+      </h1>
+      <p class="text-[#4a3f35] text-center mb-8 text-sm sm:text-base">
+        Discover new opportunities, network, and stay connected<br
+          class="hidden sm:inline"
+        />
+        with your fellow alumni.
+      </p>
+      <div
+        class="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row"
+      >
+        <button
+          class="px-8 py-3 bg-[#f5edde] text-[#4a3f35] rounded border border-[#e6dfd1] text-sm hover:border-[#d4b990]"
+        >
+          Join Now
+        </button>
+        <button
+          class="px-8 py-3 bg-[#f5edde] text-[#4a3f35] rounded border border-[#e6dfd1] text-sm hover:border-[#d4b990]"
+        >
+          Learn More
+        </button>
+      </div>
+    </main>
+    <div class="bg-[#E6D8C6] p-8 mb-16 mx-auto font-mono font-normal">
+      <h1 class="text-4xl font-sans font-bold text-center mb-4">
+        Featured Alumni
+      </h1>
+      <p class="text-center mb-8">
+        Get inspired by the stories and achivements of our accomplished alumni.
+      </p>
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="bg-[#E6D8C6] rounded-lg shadow-md p-6 border border-[#4a3f35]"
+          >
+            <div class="h-48 bg-gray-100 mb-4 rounded"></div>
+            <h2 class="text-xl font-bold mb-2">John Doe</h2>
+            <p class="text-gray-600 mb-2">
+              Software Engineer,Google<br />Class of 2016
+            </p>
+            <p class="mb-4 text-sm">
+              John is a software engineer at Google,where he specializes in
+              building scalable web application.
+            </p>
+          </div>
+
+          <div
+            class="bg-[#E6D8C6] rounded-lg shadow-md p-6 border border-[#4a3f35]"
+          >
+            <div class="h-48 bg-gray-100 mb-4 rounded"></div>
+            <h2 class="text-xl font-bold mb-2">Jane Smith</h2>
+            <p class="text-gray-600 mb-2">
+              Entrepreneur,Founder of Acme Inc.<br />class of 2010
+            </p>
+            <p class="mb-4 text-sm">
+              Jane is the founder of Acme Inc., a successful technology
+              startup.She is passionate about mentoring young entrepreurs.
+            </p>
+          </div>
+          <div
+            class="bg-[#E6D8C6] rounded-lg shadow-md p-6 border border-[#4a3f35]"
+          >
+            <div class="h-48 bg-gray-100 mb-4 rounded"></div>
+            <h2 class="text-xl font-bold mb-2">Michael Johnson</h2>
+            <p class="text-gray-600 mb-2">
+              Data Scientist, Acme Analytics<br />Class of 2018
+            </p>
+            <p class="mb-4 text-sm">
+              Michael is a data scientist at Acme Analytics,where he helps
+              companies make data-driven .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#E6D8C6] p-8 mx-auto font-mono font-normal">
+      <h1 class="text-4xl font-sans font-bold text-center mb-4">
+        Upcoming events
+      </h1>
+      <p class="text-center mb-8">
+        Stay up-to-date with the lastest alumni events and networking
+        opprtunities.
+      </p>
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="bg-[#E6D8C6] rounded-lg shadow-md p-6 border border-[#4a3f35]"
+          >
+            <div class="h-48 bg-gray-100 mb-4 rounded"></div>
+            <h2 class="text-xl font-bold mb-2">Alumni Networking Event</h2>
+            <p class="text-gray-600 mb-2">junne 15,2023 | 6:00 PM - 9:00 PM</p>
+            <p class="mb-4 text-sm">
+              Join us for an evening of networking annd reconnecting with fellow
+              alumni.Enjoy drinks,hors d'oeuvres,angaging conversations.
+            </p>
+            <button
+              class="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-[#D4B990] text-sm"
+            >
+              RSVP
+            </button>
+          </div>
+
+          <div
+            class="bg-[#E6D8C6] rounded-lg shadow-md p-6 border border-[#4a3f35]"
+          >
+            <div class="h-48 bg-gray-100 mb-4 rounded"></div>
+            <h2 class="text-xl font-bold mb-2">Carrer Development Workshop</h2>
+            <p class="text-gray-600 mb-2">July 20,2023 | 9:00 AM- 12:00 PM</p>
+            <p class="mb-4 text-sm">
+              Explore new career paths and learn valuable skills from industry
+              experts.this interactive workshop is open to all alumni.
+            </p>
+            <button
+              class="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-[#D4B990] text-sm"
+            >
+              Register
+            </button>
+          </div>
+          <div
+            class="bg-[#E6D8C6] rounded-lg shadow-md p-6 border border-[#4a3f35]"
+          >
+            <div class="h-48 bg-gray-100 mb-4 rounded"></div>
+            <h2 class="text-xl font-bold mb-2">Alumni Homecoming</h2>
+            <p class="text-gray-600 mb-2">
+              September 1,2023 | 12:00 PM -6:00 PM
+            </p>
+            <p class="mb-4 text-sm">
+              Join us for a day of celebration,reconnection,and reminsing.Enjoy
+              campus tours,alumni panels,and a festive barbecue .
+            </p>
+            <button
+              class="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-[#D4B990] text-sm"
+            >
+              RSVP
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-[#e6d8c6] font-mono font-medium min-h-screen flex items-center justify-center p-4"
+    >
+      <div class="w-full max-w-md">
+        <h1
+          class="text-4xl font-sans font-bold text-center mb-6 text-[#4a3f35]"
+        >
+          Get in Touch
+        </h1>
+        <p class="text-center mb-8">
+          Have a question or want to get involved? Fill out the form below and
+          we'll be in touch.
+        </p>
+        <form class="space-y-4">
+          <input
+            type="text"
+            placeholder="Name"
+            class="w-full p-2 border-[#755411] rounded"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="w-full p-2 border-[#755411] rounded"
+          />
+          <textarea
+            placeholder="Message"
+            rows="4"
+            class="w-full p-2 border-[#755411] rounded"
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full p-2 bg-sand border-[#755411] shadow rounded hover:bg-[#9e8c66] text-[#4a3f35] transition-colors"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <script>
+      const mobileMenuButton = document.getElementById('mobile-menu-button')
+      const mobileMenu = document.getElementById('mobile-menu')
+
+      mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden')
+      })
+    </script>
+  </body>
+</html>
