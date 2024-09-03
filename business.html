@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promote Your Business</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-[#EBE4D5] p-6 font-serif">
+    <div class="max-w-2xl mx-auto bg-[#E6D8C6] p-8 rounded-lg shadow-md">
+        <h1 class="text-4xl font-bold mb-4 text-stone-800">Promote Your Business</h1>
+        <p class="text-lg mb-6 text-stone-600">Share your story and achievements with the Acme Business community.</p>
+        
+        <form>
+            <div class="mb-4">
+                <label for="businessName" class="block text-sm font-medium text-stone-700 mb-1">Business Name</label>
+                <input type="text" id="businessName" name="businessName" class="w-full p-2 bg-[#EBE4D5] border border-stone-300 rounded-md" placeholder="Acme Inc">
+            </div>
+            
+            <div class="mb-4">
+                <label for="industry" class="block text-sm font-medium text-stone-700 mb-1">Industry</label>
+                <input type="text" id="industry" name="industry" class="w-full p-2 bg-[#EBE4D5] border border-stone-300 rounded-md" placeholder="Technology">
+            </div>
+            
+            <div class="mb-4">
+                <label for="location" class="block text-sm font-medium text-stone-700 mb-1">Location</label>
+                <input type="text" id="location" name="location" class="w-full p-2 bg-[#EBE4D5] border border-stone-300 rounded-md" placeholder="San Francisco, CA">
+            </div>
+            
+            <div class="mb-4">
+                <label for="description" class="block text-sm font-medium text-stone-700 mb-1">Business Description</label>
+                <textarea id="description" name="description" rows="4" class="w-full p-2 bg-[#EBE4D5] border border-stone-300 rounded-md" placeholder="Tell us about your business..."></textarea>
+            </div>
+            
+            <div class="mb-6">
+                <label for="logo" class="block text-sm font-medium text-stone-700 mb-1">Business Banner</label>
+                <input type="file" id="logo" name="logo" class="w-full p-2 bg-[#EBE4D5] border border-stone-300 rounded-md">
+            </div>
+            
+            <button type="submit" class="w-full bg-[#D4B990] text-stone-800 py-2 px-4 rounded-md hover:bg-stone-400 transition duration-300">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
